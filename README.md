@@ -26,4 +26,4 @@ marp -s slides/
 Bei jedem Push in den main-Branch wird die Präsentation automatisch gebaut und über GitHub Pages bereitgestellt.
 
 ## 🌐 Live-Demo
-[➡ Hier klicken für die Präsentation](https://tschroeder13.github.io/robotframework-praesentation.)
+[➡ Hier klicken für die Präsentation](https://tschroeder13.github.io/robotframework-praesentation)
