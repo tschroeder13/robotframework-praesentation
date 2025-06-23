@@ -1,0 +1,32 @@
+name: Marp Präsentation bauen & veröffentlichen
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Node installieren
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - run: npm install -g @marp-team/marp-cli
+
+      - name: Präsentation rendern
+        run: marp slides/robotframework.md --html -o dist/index.html
+
+      - name: Deployment vorbereiten
+        run: |
+          touch dist/.nojekyll
+          echo 'robotframework-praesentation' > dist/CNAME || true
+
+      - name: GitHub Pages veröffentlichen
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
