@@ -20,7 +20,7 @@ jobs:
       - run: npm install -g @marp-team/marp-cli
 
       - name: Präsentation rendern
-        run: marp slides/robotframework.md --html -o dist/index.html
+        run: marp slides/robotframework.md --html --theme ./rose-pine-moon.css -o dist/index.html
 
       - name: Deployment vorbereiten
         run: |
