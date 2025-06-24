@@ -66,4 +66,5 @@ Robot Framework = 💡 Lesbare Testsprache trifft auf mächtige Automatisierung
 [robotframework.org](https://robotframework.org/)
 
 GitHub: github.com/robotframework
+
 [Repository zu Many Kasirihas Talk auf der Robocon 2022](https://github.com/manykarim/robocon-fortheveryfirsttime)
