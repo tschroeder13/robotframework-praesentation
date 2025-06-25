@@ -13,22 +13,25 @@ headingDivider: 2
 Motivation: Bedarf an LDAP Bibliothek zum testen i.R. einer IDM Lösung
  -->
 
-## 🧪 Keyword-driven Testautomatisierung mit Stil
-
 ## Was ist Robot Framework?
-
 - Open-Source RPA & Testautomatisierungs-Framework
-- Unterstützt Keyword-Driven, Behavior-Driven und Datengetriebene Tests
+- Unterstützt v.a. Keyword-Driven und Datengetriebene Tests aber auch BDD
 - Ideal für Akzeptanztests & RPA (Robotic Process Automation)
 - Plattformunabhängig (Python-basiert)
-- Breite Unterstützung durch die [Robot Framework Foundateion](https://robotframework.org/foundation/)
+- Breite Unterstützung durch die [Robot Framework Foundation](https://robotframework.org/foundation/)
 
+
+<!--
+RPA: Robotic Process Automation
+-->
+
+<!-- footer: "[BDD](https://docs.robotframework.org/docs/testcase_styles/bdd), [DDT](https://docs.robotframework.org/docs/testcase_styles/datadriven)" -->
 
 ## Warum Robot Framework?
 
 - **Lesbarer Code** dank natürlicher Sprache - nicht nur Englisch
 - Erweiterbar durch Bibliotheken in verschiedenen Programmiersprachen
-- Große Community & viele Libraries (z. B. SeleniumLibrary, BrowserLibrary)
+- Große Community & viele Libraries (z. B. SeleniumLibrary, BrowserLibrary, u.v.m.)
 - Unterstützt auch API-Tests, Datenbanktests, **LDAP Tests** u. v. m.
 
 ## Syntaxbeispiel
@@ -67,7 +70,7 @@ Lokale Aufgabenautomation
 ## Fazit
 Robot Framework = 💡 Lesbare Testsprache trifft auf mächtige Automatisierung
 
-> "Write tests as if writing documentation."
+> Write tests as if writing documentation.
 
 ## Links / Kontakte / Fragen?
 [robotframework.org](https://robotframework.org/)
