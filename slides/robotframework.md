@@ -5,24 +5,31 @@ paginate: true
 headingDivider: 2
 ---
 
-# Einführung in Robot Framework
+# Robot Framework Appetizer
+
+![bg right](https://github.com/tschroeder13/robotframework-praesentation/raw/main/slides/RF-Logo.png)
+
+<!-- 
+Motivation: Bedarf an LDAP Bibliothek zum testen i.R. einer IDM Lösung
+ -->
 
 ## 🧪 Keyword-driven Testautomatisierung mit Stil
 
 ## Was ist Robot Framework?
 
-- Open-Source RPQ & Testautomatisierungs-Framework
+- Open-Source RPA & Testautomatisierungs-Framework
 - Unterstützt Keyword-Driven, Behavior-Driven und Datengetriebene Tests
 - Ideal für Akzeptanztests & RPA (Robotic Process Automation)
 - Plattformunabhängig (Python-basiert)
 - Breite Unterstützung durch die [Robot Framework Foundateion](https://robotframework.org/foundation/)
+
 
 ## Warum Robot Framework?
 
 - **Lesbarer Code** dank natürlicher Sprache - nicht nur Englisch
 - Erweiterbar durch Bibliotheken in verschiedenen Programmiersprachen
 - Große Community & viele Libraries (z. B. SeleniumLibrary, BrowserLibrary)
-- Unterstützt auch API-Tests, Datenbanktests, LDAP Tests u. v. m.
+- Unterstützt auch API-Tests, Datenbanktests, **LDAP Tests** u. v. m.
 
 ## Syntaxbeispiel
 
