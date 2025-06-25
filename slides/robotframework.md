@@ -7,7 +7,7 @@ headingDivider: 2
 
 # Robot Framework Appetizer
 
-![bg right](https://github.com/tschroeder13/robotframework-praesentation/raw/main/slides/RF-Logo.png)
+![bg right fit](https://github.com/tschroeder13/robotframework-praesentation/raw/main/slides/RF-Logo.png)
 
 <!-- 
 Motivation: Bedarf an LDAP Bibliothek zum testen i.R. einer IDM Lösung
